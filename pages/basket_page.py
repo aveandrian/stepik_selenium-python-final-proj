@@ -11,6 +11,6 @@ class BasketPage(BasePage):
         if(language == "ru"):
            assert basket_text == "Ваша корзина пуста Продолжить покупки", language
         if(language == "en"):
-           assert basket_text == "Your basket is empty Continue shopping", language
+           assert basket_text == "Your basket is empty. Continue shopping", language
        
 
